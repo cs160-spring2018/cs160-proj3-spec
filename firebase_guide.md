@@ -13,7 +13,7 @@ If you haven’t already, create a new Android Studio project as you would norma
 
 1. In Android Studio, open the Firebase Console from the Tools menu: **Tools > Firebase** You should see a list of Firebase features. For this assignment, we’ll just be using the Realtime Database to store data shared among users.
 2. Select **Realtime Database** from the list, and then click **Save and Retrieve Data**
-![](img/connect.png)
+![](firebase_guide_images/connect.png)
 3. Select **Connect Your App to Firebase**
 4. If prompted, sign in to the account you want to use with Firebase, select **Create a new Firebase Project** and then **Connect to Firebase**.
 
@@ -30,7 +30,7 @@ Firebase allows you to set permissions for who can read and write to your databa
 1. Open up your project via the online Firebase Console: https://console.firebase.google.com/
 2. Select **Database** > **RealtimeDatabase** 
 
-![](img/database.png)
+![](firebase_guide_images/database.png)
 
 3. Open the **Rules** tab, and set both read and write permissions to public:
       
@@ -61,7 +61,7 @@ molly.child("toy").setValue("lemon");                       // ~/Dogs/Molly/toy 
 1. To test that your database is working, try writing to your database in your `onCreate` method.
 2. Run your app, and check that your database contains the data you provided. Below is the output of the code posted above, with one extra dog.
 
-![](img/write_example1.png)
+![](firebase_guide_images/write_example1.png)
 
 3. You aren't just limited to strings and ints! Check out other writeable types here: https://firebase.google.com/docs/database/admin/save-data.
 
@@ -125,8 +125,8 @@ Like *OnClickListeners*, *ValueEventListeners* continuously "listen" for a certa
 
 3. Run your app in debug mode, with a breakpoint in `onDataChange`. Change the value of `someRef` via your online console (in this code, that means modifying one of the "Molly" child nodes):
 
-![](img/editing.png)
+![](firebase_guide_images/editing.png)
 
 4. After changing the value of one of your references, you should see your updated value in your the new `dataSnapshot`
 
-![](img/breakpoint.png)
+![](firebase_guide_images/breakpoint.png)
