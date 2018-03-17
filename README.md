@@ -53,10 +53,9 @@ We have provided starter code for this part of the assignment:
 You will need to:
 - link this provided comment feed to a database
 
-
 ### Linking the message board to a database
 We recommend you use the Firebase Realtime Database for this assignment, since it is built into Android Studio.
 
-Android Studio walks you through most of the process of setting up the database, but here is guide on setting up and reading and writing to your database: 
+Android Studio walks you through most of the process of setting up the database, but here is guide on setting up and reading and writing to your database: https://github.com/cs160-spring2018/cs160-proj3-spec/blob/master/firebase_guide.md
 
 
