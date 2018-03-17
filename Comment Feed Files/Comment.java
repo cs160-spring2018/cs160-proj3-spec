@@ -24,7 +24,6 @@ public class Comment {
         long days = hours / 24;
         int daysInt = Math.round(days);
         int hoursInt = Math.round(hours);
-        int minutesInt = Math.round(minutes);
         if (daysInt == 1) {
             return "1 day";
         } else if (daysInt > 1) {
