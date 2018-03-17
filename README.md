@@ -8,9 +8,9 @@ bCourses assignment https://bcourses.berkeley.edu/courses/1469435/assignments/78
 
 ## Viewing Landmarks and their locations
 ### Requirements
-- display a recycler view with a cell for each landmark in (bear_statues.json)[https://gist.github.com/paigeplan/cc8116bf086ba2687476251cc8046090]. Each cell should contain:
+- display a recycler view with a cell for each landmark in [bear_statues.json](https://github.com/cs160-spring2018/cs160-proj3-spec/blob/master/bear_statue_data/bear_statues.json). Each cell should contain:
    - the landmark name 
-   - the landmark image
+   - the landmark image: use [bear_images](https://github.com/cs160-spring2018/cs160-proj3-spec/tree/master/bear_statue_data/bear_images)
    - the distance between that landmark and your user's last updated location
 - an "update location" button. when pressed, you should fetch the user's location and update each of the landmark's distances
 
