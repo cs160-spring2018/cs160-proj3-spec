@@ -1,6 +1,7 @@
 # cs160 prog3 implementation details
 
 bCourses assignment https://bcourses.berkeley.edu/courses/1469435/assignments/7877915
+starter code: https://github.com/cs160-spring2018/prog3-starter
 
 1. Viewing Landmarks and how far away they are
 2. Accessing a landmark message board
