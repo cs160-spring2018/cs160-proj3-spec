@@ -47,10 +47,12 @@ To pass data through an intent to the next activity, you can use the `putExtra` 
 ## Creating the message board
 
 We have provided starter code for this part of the assignment:
-- Comment model file: 
-- layout files: https://gist.github.com/paigeplan/a5f053be11d2c8424beb3a3e2f0f4da2
-- activity file:
-- recylcer view adapter: 
+- Comment model file: Comment.java
+- layout files
+   - res/layout/comment_cell_layout.xml
+   - res/layout/activity_comment_feed.xml
+- activity file: CommentFeedActivity.java
+- recylcer view adapter and view holder: CommentFeedAdapter.java
 
 You will need to:
 - link this provided comment feed to a database
@@ -59,5 +61,3 @@ You will need to:
 We recommend you use the Firebase Realtime Database for this assignment, since it is built into Android Studio.
 
 Android Studio walks you through most of the process of setting up the database, but here is guide on setting up and reading and writing to your database: https://github.com/cs160-spring2018/cs160-proj3-spec/blob/master/firebase_guide.md
-
-
