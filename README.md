@@ -11,7 +11,7 @@
 ### Requirements
 - display a recycler view with a cell for each landmark in [bear_statues.json](https://github.com/cs160-spring2018/cs160-proj3-spec/blob/master/bear_statue_data/bear_statues.json). Each cell should contain:
    - the landmark name 
-   - the landmark image: use [bear_images](https://github.com/cs160-spring2018/cs160-proj3-spec/tree/master/bear_statue_data/bear_images)
+   - the landmark image: use the [bear_images](https://github.com/cs160-spring2018/cs160-proj3-spec/tree/master/bear_statue_data/bear_images) included in the starter code
    - the distance between that landmark and your user's last updated location
 - an "update location" button. when pressed, you should fetch the user's location and update each of the landmark's distances
 
