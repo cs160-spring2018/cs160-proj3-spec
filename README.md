@@ -46,13 +46,13 @@ To pass data through an intent to the next activity, you can use the `putExtra` 
 
 ## Creating the message board
 
-We have provided starter code for this part of the assignment:
-- Comment model file: Comment.java
+We have provided starter code for this part of the assignment. These files are included in the starter code repo:
+- Comment model file: [Comment.java](https://github.com/cs160-spring2018/prog3-starter/blob/master/app/src/main/java/com/example/cs160_sp18/prog3/Comment.java)
 - layout files
-   - res/layout/comment_cell_layout.xml
-   - res/layout/activity_comment_feed.xml
-- activity file: CommentFeedActivity.java
-- recylcer view adapter and view holder: CommentFeedAdapter.java
+   - [res/layout/comment_cell_layout.xml](https://github.com/cs160-spring2018/prog3-starter/blob/master/app/src/main/res/layout/comment_cell_layout.xml)
+   - [res/layout/activity_comment_feed.xml](https://github.com/cs160-spring2018/prog3-starter/blob/master/app/src/main/res/layout/activity_comment_feed.xml)
+- activity file: [CommentFeedActivity.java](https://github.com/cs160-spring2018/prog3-starter/blob/master/app/src/main/java/com/example/cs160_sp18/prog3/CommentFeedActivity.java)
+- recylcer view adapter and view holder: [CommentFeedAdapter.java](https://github.com/cs160-spring2018/prog3-starter/blob/master/app/src/main/java/com/example/cs160_sp18/prog3/CommentAdapter.java)
 
 You will need to:
 - link this provided comment feed to a database
