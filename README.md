@@ -60,4 +60,4 @@ You will need to:
 ### Linking the message board to a database
 We recommend you use the Firebase Realtime Database for this assignment, since it is built into Android Studio.
 
-Android Studio walks you through most of the process of setting up the database, but here is guide on setting up and reading and writing to your database: https://github.com/cs160-spring2018/cs160-proj3-spec/blob/master/firebase_guide.md
+Android Studio walks you through most of the process of setting up the database, but here is guide on setting up and reading and writing to your database: https://github.com/cs160-spring2018/cs160-proj3-spec/blob/master/firebase_guide.md. The Firebase documentation online is very extensive, too!
