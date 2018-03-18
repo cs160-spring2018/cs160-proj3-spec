@@ -1,7 +1,8 @@
 # cs160 prog3 implementation details
 
-- bCourses assignment https://bcourses.berkeley.edu/courses/1469435/assignments/7877915
-- starter code: https://github.com/cs160-spring2018/prog3-starter
+bCourses assignment https://bcourses.berkeley.edu/courses/1469435/assignments/7877915
+
+starter code: https://github.com/cs160-spring2018/prog3-starter
 
 1. Viewing Landmarks and how far away they are
 2. Accessing a landmark message board
@@ -23,7 +24,7 @@ You can locate your user using android's [locationing api's](https://developer.a
 - Here is an example of a simple location tracking app: https://github.com/googlesamples/android-play-location/tree/master/LocationUpdates. You may find it helpful to add the code from MainActivity file into your own app to test out location services. Do note that you are not required to continuously track location updates, as is done in this example.
 - If you are using a simulator for testing, you can simulate location updates via the Location tab in your simulator's "Extended Controls" menu. Below is a screenshot of what this menu looks like, using a simple location app provided at https://github.com/googlesamples/android-play-location/tree/master/LocationUpdates. 
 
-[making location updates via the simulator](tracking_location.png)
+![making location updates via the simulator](/tracking_location.png)
 
 ## Accessing a landmark message board
 ### Requirements
