@@ -37,12 +37,29 @@ Math.round(locationA.distanceTo(locationB)) < 10
 To present the message board, you will need to use an Intent
 
 ```java
-String hello = "hello";
-Intent goToNewActivityIntent = new Intent(ClassYouAreIn.this, ClassYouWantToGoTo.class);
-ClassYouAreIn.this.startActivity(ClassYouWantToGoTo);
+Intent goToSecondActivityIntent = new Intent(FirstActivity.this, SecondActivity.class);
+FirstActivity.this.startActivity(SecondActivity);
 ```
 
-To pass data through an intent to the next activity, you can use the `putExtra` method.
+To pass data through an intent to the next activity, you can use the `putExtra` and `getExtras` methods.
+
+**FirstActivity.java**
+```java
+String hello = "hello";
+goToSecondActivityIntent.putExtra("helloString", hello);
+```
+
+**SecondActivity.java**
+```java
+
+Intent goToSecondActivityIntent = getIntent();
+Bundle intentExtras = goToSecondActivityIntent.getExtras();
+
+if(bundle!=null) {
+   String helloString =(String) intentExtras.get("helloString");
+   // do something with helloString 
+}
+```
 
 ## Creating the message board
 
