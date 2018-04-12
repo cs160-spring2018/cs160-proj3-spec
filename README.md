@@ -74,6 +74,16 @@ We have provided starter code for this part of the assignment. These files are i
 You will need to:
 - link this provided comment feed to a database
 
+
+Tip: You can use the `Uri` class to get a reference to images in your drawable folder. Use this along with `ImageView.setImageUri` to set an image view's image to that resource image's Uri. 
+``` java
+// get the imageUri from a drawable resource file
+Uri imageUri = Uri.parse("android.resource://" + [your package name] + "/drawable/" + [your image name]);
+
+// display uri in your image view 
+mImageView.setImageURI(imageUri);
+```
+
 ### Linking the message board to a database
 We recommend you use the Firebase Realtime Database for this assignment, since it is built into Android Studio.
 
