@@ -81,7 +81,7 @@ protected void onCreate(Bundle savedInstanceState){
 
     // create a new value event listener
     ValueEventListener myDataListener = new ValueEventListener() {
-         @Override(
+         @Override
          public void onDataChange(DataSnapshot dataSnapshot) {
               // Set a breakpoint in this method and run in debug mode!!
               // this will be called each time `someRef` or one of its children is modified
